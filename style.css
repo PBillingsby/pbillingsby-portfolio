@@ -7,6 +7,9 @@ h1 {
   font-size: 10vh;
   margin: 0;
 }
+h2 {
+  font-weight: bolder;
+}
 header {
   font-family: Karla;
   display: grid;
@@ -46,29 +49,43 @@ nav ul > li {
 section {
   max-width: 30vw;
 }
+form input{
+  padding: 5px;
+  margin: 5px;
+}
 aside, article {
   padding: 10px;
   background-color: rgba(207, 185, 157, 0.25);
+}
+aside {
+  max-height: 285px;
 }
 #projects {
   text-align: center;
 }
 footer {
   width: 100%;
-  padding: 10px 0;
   text-align: center;
 }
-
-.project-image {
-  width: 750px;
-  height: auto;
+footer a {
+  padding: 15px 10px;
 }
-
 .footer-logo {
   width: 30px;
   height: auto;
 }
 
-@media (min-width: 840px) {
+.project-image {
+  width: 500px;
+  height: auto;
+  border: 2px solid rgba(68, 68, 68, 0.5);
+}
 
+@media (max-width: 840px) {
+  header {
+    display: inline-block;
+  }
+  nav {
+    text-align: center;
+  }
 }
