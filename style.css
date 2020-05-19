@@ -10,7 +10,7 @@ h1 {
 header {
   font-family: Karla;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
 }
 .container {
   font-family: Lato;
@@ -39,8 +39,9 @@ nav ul > li {
 .main {
   padding: 10px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-gap: 10px;
+  text-align: center;
 }
 section {
   max-width: 30vw;
@@ -48,8 +49,6 @@ section {
 aside, article {
   padding: 10px;
   background-color: rgba(207, 185, 157, 0.25);
-}
-#about {
 }
 #projects {
   text-align: center;
@@ -63,4 +62,13 @@ footer {
 .project-image {
   width: 750px;
   height: auto;
+}
+
+.footer-logo {
+  width: 30px;
+  height: auto;
+}
+
+@media (min-width: 840px) {
+
 }
