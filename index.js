@@ -20,4 +20,5 @@ function getLinks() {
     // mainInfo.innerHTML = document.getElementById('projects').innerHTML;
   })
 }
+
 document.getElementsByTagName('img');
