@@ -3,12 +3,6 @@ body {
   box-sizing: 0;
 }
 
-.tech-stack {
-  max-width: 50%;
-  padding: 0;
-  list-style-type: none;
-  text-align: left;
-}
 h1 {
   text-align: left;
   padding-left: 100px;
@@ -24,9 +18,6 @@ header {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
-.align-center {
-  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -48,6 +39,15 @@ nav ul > li {
 .info-card {
   text-align: right;
   margin: auto 0;
+}
+.ul-grid {
+  max-width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+}
+.bg-color {
+  background-color: red;
 }
 .main {
   padding: 10px;
@@ -73,8 +73,7 @@ aside, article {
   overflow: scroll;
 }
 .about-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
 }
 footer {
   width: 100%;
@@ -87,23 +86,18 @@ footer a {
   width: 30px;
   height: auto;
 }
-.ul-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.thumb-size {
+  width: 10vw;
+  margin-top: 10px;
 }
 .project-image {
   max-width: 50vw;
   height: auto;
   border: 2px solid rgba(68, 68, 68, 0.5);
 }
-.card-bg {
+.card-bg, .info-bg {
   background-color: rgba(207, 185, 157, 0.25);
 }
-@media (max-width: 840px) {
-  h1 {
-    text-size-adjust: 50%;
-  }
-  .main {
-    display: block;
-  }
+@media (max-width: 500px) {
+  
 }
