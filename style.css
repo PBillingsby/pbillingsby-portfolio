@@ -26,6 +26,11 @@ a:hover {
   color: rgb(207, 185, 157);
   text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 nav {
   margin: auto 0;
 }
