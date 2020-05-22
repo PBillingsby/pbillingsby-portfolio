@@ -28,26 +28,21 @@ a:hover {
   text-decoration: none;
 }
 nav {
-  margin: auto auto;
+  margin: auto 0;
 }
 nav ul > li {
-  font-size: 2.5vh;
-  padding: 0 20px;
+  font-size: 3vh;
+  padding: 0;
   letter-spacing: 10px;
   display: inline;
 }
 .info-card {
   text-align: right;
-  margin: auto 0;
 }
-.ul-grid {
-  max-width: 40vw;
+.skill-grid {
+  max-width: 30vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2px;
-}
-.bg-color {
-  background-color: red;
+  grid-template-columns: 1fr 1fr;
 }
 .main {
   padding: 10px;
@@ -71,6 +66,10 @@ aside, article {
   text-align: center;
   max-height: 410px;
   overflow: scroll;
+}
+.skill-border {
+  border: 1px solid rgba(68, 68, 68, .15);
+  letter-spacing: .3vw;
 }
 .about-box {
   margin: 0 auto;
@@ -98,15 +97,21 @@ footer a {
 .card-bg, .info-bg {
   background-color: rgba(207, 185, 157, 0.25);
 }
-@media (max-width: 700px) {
+@media (max-width: 400px) {
+  h1 {
+    font-size: 200%;
+  }
   header {
     display: flex;
     flex-direction: column;
   }
-  h1 {
-    font-size: 200%;
-  }
-  nav > li {
+  .info-card {
     display: inline-block;
+  }
+  header {
+    text-align: center;
+  }
+  nav ul > li {
+    display: block;
   }
 }
