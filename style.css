@@ -31,8 +31,8 @@ nav {
 }
 nav ul > li {
   font-size: 3vh;
-  padding: 0;
-  letter-spacing: 1vw;
+  padding: 0 2vw;
+  letter-spacing: .5vw;
   display: inline;
 }
 .info-card {
@@ -113,5 +113,12 @@ footer a {
   }
   nav ul > li {
     display: block;
+  }
+  .skill-grid {
+    display: block;
+  }
+  .main {
+    display: flex;
+    margin: 10px;
   }
 }
