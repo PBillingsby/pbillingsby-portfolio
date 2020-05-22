@@ -2,7 +2,6 @@
 body {
   box-sizing: 0;
 }
-
 h1 {
   text-align: left;
   padding-left: 100px;
@@ -33,7 +32,7 @@ nav {
 nav ul > li {
   font-size: 3vh;
   padding: 0;
-  letter-spacing: 10px;
+  letter-spacing: 1vw;
   display: inline;
 }
 .info-card {
@@ -92,6 +91,7 @@ footer a {
 .project-image {
   max-width: 50vw;
   height: auto;
+  background-color: rgb(207, 185, 157);
   border: 2px solid rgba(68, 68, 68, 0.5);
 }
 .card-bg, .info-bg {
