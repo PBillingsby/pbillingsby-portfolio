@@ -14,11 +14,11 @@ function getLinks() {
       document.getElementById('projects').style.display = "none";
 
     }
-    // // document.getElementById(linkTo).style.display = "none";
-    // const mainInfo = document.getElementById('main-information');
-
-    // mainInfo.innerHTML = document.getElementById('projects').innerHTML;
   })
 }
 
 document.getElementsByTagName('img');
+
+// fetch('https://pbillingsby.github.io/')
+// .then(resp => resp)
+// .then(obj => console.log(obj))
