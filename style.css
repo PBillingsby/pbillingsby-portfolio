@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@300&display=swap');
 body {
+  min-width: 360px;
   box-sizing: 0;
 }
 h1 {
@@ -96,6 +97,9 @@ aside, article {
   border: 1px solid rgba(68, 68, 68, .15);
   letter-spacing: .3vw;
 }
+.skill-border:hover {
+  background-color: rgb(207, 185, 157);
+}
 .about-box {
   margin: 0 auto;
 }
@@ -143,8 +147,10 @@ footer a {
     display: block;
   }
   .skill-grid {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
+  
   .main {
     display: flex;
     margin: 10px;
