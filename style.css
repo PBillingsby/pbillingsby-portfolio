@@ -90,7 +90,9 @@ aside, article {
   max-width: 75%;
   border: 1px solid rgba(207, 185, 157, 0.25);
 }
-
+.my-info {
+  font-size: large;
+}
 .my-info::first-letter {
   font-size: xx-large;
   font-size: 1.75em;
@@ -124,8 +126,10 @@ footer a {
   height: auto;
 }
 .thumb-size {
-  width: 5vw;
-  margin-top: 5px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 8vw;
+  height: 14vh;
 }
 .project-image {
   max-width: 50vw;
