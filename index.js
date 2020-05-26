@@ -12,13 +12,8 @@ function getLinks() {
     else {
       document.getElementById('about').style.display = "";
       document.getElementById('projects').style.display = "none";
-
     }
   })
 }
 
 document.getElementsByTagName('img');
-
-// fetch('https://pbillingsby.github.io/')
-// .then(resp => resp)
-// .then(obj => console.log(obj))
